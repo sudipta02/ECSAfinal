@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faculty_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide3"
+    >
+
+    <LinearLayout
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#80000000"
+        >
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Prof.(Dr.)RABINDRANATH BERA"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Prof.(Dr.)PRASHANT C. PRADHAN"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. O.P.SINGH"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. HEMANTA SAIKIA"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. JAYANTA KUMAR BARUAH"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. SOURAV DHAR"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. AMRITA BISWAS"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. BIKASH SHARMA"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. KUSHAL POKHREL"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. SOMENATH CHATTERJEE"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mrs. BARNALI DEY"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. TANUSHREE BOSE"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. DIPANJAN BHATTACHARJEE"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. NIRMAL RAI"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:textAllCaps="false"
+            android:text="Mrs. SHREEMA MANNA"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. S.N.SUR"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. DEBASISH BHASKAR"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. D. GHOSH"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Miss SOUMYASREE BERA"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. A.K.SINGH"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:layout_marginBottom="1dp"
+            />
+
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. AMIT AGARWAL"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. J.S.TAMANG"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Miss SAYANTANI ROY"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. ROCHAN BANSTOLA"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. SURYA PRAKASH TAMANG"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. SAUMYA DAS"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. SUMAN DAS"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. SWARUP SARKAR"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. HIMANGSHU PAL"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mrs. TINKU BISWAS"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Miss RIJHI DEY"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. NITAI PAITYA"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Dr. SWASTIKA CHAKRABORTY"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. GAUTAM SAHA"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. KUMAR GURUNG"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. DHRUVA PRADHAN"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. SIDHARTH PRADHAN"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. SANTOSH KUMAR DAS"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Miss SUSHMA PRADHAN"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. RIWAS GURUNG"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. PREMAN CHETTRI"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. TIKARAM SHARMA"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. BIKRAM CHETTRI"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mr. BISWA GURUNG"
+            android:textColor="#2196F3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D000000"
+            android:text="Mrs. BEENA MUKHIA"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

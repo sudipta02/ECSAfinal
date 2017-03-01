@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="UnusedResources">ECSA</string>
+    <string name="hello_world" tools:ignore="UnusedResources">Hello World!</string>
+    <string name="action_settings" tools:ignore="UnusedResources">Settings</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string-array name="ecsa">
+
+        <item>Home</item>
+        <item>In Sem Marks</item>
+        <item>Student List</item>
+        <item>Reach Us</item>
+        <item>Version v2.0</item>
+    </string-array>
+</resources>

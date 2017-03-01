@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide2"
+    android:id="@+id/student_list_content"
+    android:clickable="true"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="45dp"
+    android:paddingBottom="45dp"
+    android:gravity="center"
+    >
+
+
+    <Button
+        android:id="@+id/button2A"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:text="2nd Year Section A"
+        android:textSize="18sp"
+        android:textColor="#8D6E63"
+        android:layout_weight="1"
+        android:background="@drawable/round_edge_button"
+        android:layout_marginBottom="6dp"
+        />
+
+    <Button
+        android:id="@+id/button2B"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:textColor="#8D6E63"
+        android:textSize="18sp"
+        android:text="2nd Year Section B"
+        android:background="@drawable/round_edge_button"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/button3A"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:background="@drawable/round_edge_button"
+        android:layout_weight="1"
+        android:textColor="#8D6E63"
+        android:textSize="18sp"
+        android:text="3rd Year Section A"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/button3B"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:textSize="18sp"
+        android:text="3rd Year Section B"
+        android:textColor="#8D6E63"
+        android:background="@drawable/round_edge_button"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/button4A"
+        android:layout_width="250dp"
+        android:textSize="18sp"
+        android:layout_height="0dp"
+        android:background="@drawable/round_edge_button"
+        android:layout_weight="1"
+        android:text="4th Year Section A"
+        android:textColor="#8D6E63"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/button4B"
+        android:layout_width="250dp"
+        android:textSize="18sp"
+        android:layout_height="0dp"
+        android:text="4th Year Section B"
+        android:textColor="#8D6E63"
+        android:background="@drawable/round_edge_button"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
+
+</FrameLayout>

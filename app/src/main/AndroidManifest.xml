@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Sudipta.android.ecsa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launchlogo"
+        android:label="ECSA"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        tools:ignore="AllowBackup">
+
+        <activity
+            android:name="com.Sudipta.android.ecsa.splashScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.Sudipta.android.ecsafinal.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rabindranath"
+            android:label="Prof.(Dr.)Rabindranath Bera"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.b_sharma"
+            android:label="Mr. Bikash Sharma"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.d_ghosh"
+            android:label="Mr. D. Ghosh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.swastika"
+            android:label="Dr. Swastika Chakraborty"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pcp"
+            android:label="Prof.(Dr.)Prashant C. Pradhan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.ops"
+            android:label="Mr. O.P.Singh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.hsaikia"
+            android:label="Mr. Hemanta Saikia"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.jkb"
+            android:label="Mr. Jayanta Kumar Baruah"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sdhar"
+            android:label="Dr. Sourav Dhar"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.abiswas"
+            android:label="Dr. Amrita Biswas"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.kpokhrel"
+            android:label="Mr. Kushal Pokhrel"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.schatterjee"
+            android:label="Dr. Somenath Chatterjee"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.bdey"
+            android:label="Mrs. Barnali Dey"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.tbose"
+            android:label="Dr. Tanushree Bose"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.dipanjan"
+            android:label="Mr. Dipanjan Bhattacharjee"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.nrai"
+            android:label="Mr. Nirmal Rai"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.smanna"
+            android:label="Mrs. Shreema Manna"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.snsur"
+            android:label="Mr. S.N.Sur"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.dbhaskar"
+            android:label="Mr. Debasish Bhaskar"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sbera"
+            android:label="Miss Soumyasree Bera"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.aksingh"
+            android:label="Mr. Arun K. Singh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.aagarwal"
+            android:label="Mr. Amit Agarwal"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.tamang"
+            android:label="Mr. J.S.Tamang"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sroy"
+            android:label="Miss Sayantani Roy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rochan"
+            android:label="Mr. Rochan Banstola"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.surya"
+            android:label="Mr. Surya Prakash Tamang"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.saumya"
+            android:label="Mr. Saumya Das"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.suman"
+            android:label="Mr. Suman Das"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.swarup"
+            android:label="Dr. Swarup Sarkar"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.hpal"
+            android:label="Mr. Himangshu Pal"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rdey"
+            android:label="Miss Rijhi Dey"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.tbiswas"
+            android:label="Mrs. Tinku Biswas"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.nitai"
+            android:label="Dr. Nitai Paitya"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.gautam"
+            android:label="Mr. Gautam Saha"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.kumar"
+            android:label="Mr. Kumar Gurung"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.dhruva"
+            android:label="Mr. Dhruva Pradhan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sidharth"
+            android:label="Mr. Sidharth Pradhan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.preman"
+            android:label="Mr. Preman Chettri"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.santosh"
+            android:label="Mr. Santosh Kumar Das"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.tsharma"
+            android:label="Mr. Tikaram Sharma"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.bikram"
+            android:label="Mr. Bikram Chettri"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.biswa"
+            android:label="Mr. Biswa Gurung"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.mukhia"
+            android:label="Mrs. Beena Mukhia"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sushma"
+            android:label="Miss Sushma Pradhan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.riwas"
+            android:label="Mr. Riwas Gurung"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.shailesh"
+            android:label="Shailesh Kumar Verma"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.tarini"
+            android:label="Tarini Singh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.ankesh"
+            android:label="Ankesh Kumar Singh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.shadaab"
+            android:label="Shadaab Ahmed"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.subhashree"
+            android:label="Subhashree Dutta Choudhury"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rohan"
+            android:label="Rohan Singh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pradumn"
+            android:label="Pradumn Kumar"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.kanigiri"
+            android:label="Kanigiri Visvanath"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.adutta"
+            android:label="Abhishek Dutta"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sidhant"
+            android:label="Sidhant Maharishi"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sabya"
+            android:label="Sabyasachi Choudhury"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pragya"
+            android:label="Pragya Shekhar"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.aradhana"
+            android:label="Aradhana Baruah"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.saga"
+            android:label="Sagarika"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pratik"
+            android:label="Pratik Chettri"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.abhiroop"
+            android:label="Abhiroop"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pamoli"
+            android:label="Pamoli Chettri"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rahul"
+            android:label="Rahul Kumar Prasad"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.shivji"
+            android:label="Shivji Prasad"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.rishanshi"
+            android:label="Rishanshi Verma"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.vvineet"
+            android:label="Vineet Jain"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.sama"
+            android:label="Sama Kavya Shree Reddy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.pushpak"
+            android:label="Pushpak Nandy"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.utkarsh"
+            android:label="Utkarsh"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.krishangi"
+            android:label="Krishangi Deka"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.arka"
+            android:label="Arka Deep Sur"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.manisha"
+            android:label="Manisha Das"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.Sudipta.android.ecsa.jai"
+            android:label="Jai Krishna Kn"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.Sudipta.android.ecsa.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Sudipta.android.ecsa.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
